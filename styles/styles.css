@@ -1,3 +1,257 @@
 body {
-    background-color: #bc0000;
+    background-color: #1C1C1C;
+}
+
+.container-fluid {
+    padding: 0 50px;
+}
+
+/* Class Schedule */
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+p {
+    color: black;
+    margin: 22px 0;
+    font-weight: 600;
+}
+
+.endText {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+button {
+    color: white;
+    background-color: #464646;
+    -webkit-text-stroke: 2px black;
+    paint-order: stroke fill;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.redtext {
+    color: #8D0000;
+}
+
+
+.scheduleGrid {
+    display: grid;
+    grid-template: repeat(10, 1fr) repeat(8, 1fr);
+    font-size: 25px;
+    column-gap: 10px;
+}
+
+.scheduleBgDarker1, .scheduleBgDarker2, .scheduleBgDarker3, .scheduleBgDarker4, .scheduleBgDarker5 {
+    background-color: #7E7E7E;
+    grid-column: 1 / 8;
+}
+
+.scheduleBgLighter1, .scheduleBgLighter2, .scheduleBgLighter3, .scheduleBgLighter4, .scheduleBgLighter5 {
+    background-color: #BDBDBD;
+    grid-column: 1 / 8;
+}
+
+.scheduleBgDarker1 {
+    grid-row: 1;
+}
+.scheduleBgDarker2 {
+    grid-row: 3;
+}
+.scheduleBgDarker3 {
+    grid-row: 5;
+}
+.scheduleBgDarker4 {
+    grid-row: 7;
+}
+.scheduleBgDarker5 {
+    grid-row: 9;
+}
+
+.scheduleBgLighter1 {
+    grid-row: 2;
+}
+.scheduleBgLighter2 {
+    grid-row: 4;
+}
+.scheduleBgLighter3 {
+    grid-row: 6;
+}
+.scheduleBgLighter4 {
+    grid-row: 8;
+}
+.scheduleBgLighter5 {
+    grid-row: 10;
+}
+
+.mondayGrid {
+    grid-area: 1 / 2;
+    text-align: center;
+}
+.tuesdayGrid {
+    grid-area: 1 / 3;
+    text-align: center;
+}
+.wednesdayGrid {
+    grid-area: 1 / 4;
+    text-align: center;
+}
+.thursdayGrid {
+    grid-area: 1 / 5;
+    text-align: center;
+}
+.fridayGrid {
+    grid-area: 1 / 6;
+    text-align: center;
+}
+.saturdayGrid {
+    grid-area: 1 / 7;
+    text-align: center;
+}
+
+.LilDragonsClassGrid {
+    grid-area: 2 / 1;
+    text-align: start;
+}
+.KidsBeginnerClassGrid {
+    grid-area: 3 / 1;
+    text-align: start;
+}
+.KidsIntermediateClassGrid {
+    grid-area: 4 / 1;
+    text-align: start;
+}
+.KidsAdvancedClassGrid {
+    grid-area: 5 / 1;
+    text-align: start;
+}
+.BeginnerAdultClassGrid {
+    grid-area: 6 / 1;
+    text-align: start;
+}
+.AdultAdvancedAndBBGrid {
+    grid-area: 7 / 1;
+    text-align: start;
+}
+.BlackBelts3rdDanAndUpGrid {
+    grid-area: 8 / 1;
+    text-align: start;
+}
+.DemoTeamGrid {
+    grid-area: 9 / 1;
+    text-align: start;
+}
+.LeadershipClassGrid {
+    grid-area: 10 / 1;
+    display: flex;
+    align-items: center;
+}
+
+.mondayTime1 {
+    grid-area: 2 / 2;
+}
+.mondayTime2 {
+    grid-area: 3 / 2;
+}
+.mondayTime3 {
+    grid-area: 4 / 2;
+}
+.mondayTime4 {
+    grid-area: 5 / 2;
+}
+.mondayTime5 {
+    grid-area: 6 / 2;
+}
+.mondayTime6 {
+    grid-area: 7 / 2;
+}
+.mondayTime7 {
+    grid-area: 10 / 2 / 10 / span 3;
+    text-align: start;
+}
+
+.tuesdayTime1 {
+    grid-area: 2 / 3;
+}
+.tuesdayTime2 {
+    grid-area: 3 / 3;
+}
+.tuesdayTime3 {
+    grid-area: 4 / 3;
+}
+.tuesdayTime4 {
+    grid-area: 5 / 3;
+}
+.tuesdayTime5 {
+    grid-area: 7 / 3;
+}
+
+.wednesdayTime1 {
+    grid-area: 2 / 4;
+}
+.wednesdayTime2 {
+    grid-area: 3 / 4;
+}
+.wednesdayTime3 {
+    grid-area: 4 / 4;
+}
+.wednesdayTime4 {
+    grid-area: 5 / 4;
+}
+.wednesdayTime5 {
+    grid-area: 6 / 4;
+}
+
+.thursdayTime1 {
+    grid-area: 2 / 5;
+}
+.thursdayTime2 {
+    grid-area: 3 / 5;
+}
+.thursdayTime3 {
+    grid-area: 4 / 5;
+}
+.thursdayTime4 {
+    grid-area: 5 / 5;
+}
+.thursdayTime5 {
+    grid-area: 6 / 5;
+}
+.thursdayTime6 {
+    grid-area: 7 / 5;
+}
+
+.fridayTime {
+    grid-area: 10 / 6;
+}
+
+.saturdayTime1 {
+    grid-area: 8 / 7;
+}
+.saturdayTime2 {
+    grid-area: 9 / 7;
+}
+
+
+
+.downloadBg {
+    background-color: #0E0E0E;
+    /* margin: 0; */
+    padding: 35px 5%;
+}
+
+.downloadGap {
+    column-gap: 8%;
 }
