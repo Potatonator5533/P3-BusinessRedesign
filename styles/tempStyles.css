@@ -7,7 +7,7 @@
     src: url(../assets/fonts/InstrumentSans_Condensed-Bold.ttf);
 }
 @font-face {
-    font-family: instrumnet SB;
+    font-family: 'instrument SB';
     src: url(../assets/fonts/InstrumentSans-SemiBold.ttf);
 }
 
@@ -60,7 +60,7 @@ body{
 }
 
 .CTS{
-    font-family: 'instrumnet SB', 'Times New Roman', Times, serif;
+    font-family: 'instrument SB', 'Times New Roman', Times, serif;
     color: white;
     font-size: 20px;
     width: 44.688rem;
@@ -79,7 +79,7 @@ body{
 
 /* About */
 .ABTT{
-    font-family: instrument SB, 'Times New Roman', Times, serif;
+    font-family: 'instrument SB', 'Times New Roman', Times, serif;
     width: 47.375rem;
     color: white;
     font-size: 35px;
@@ -102,7 +102,7 @@ body{
 }
 
 .BBTS{
-    font-family: instrument B, 'Times New Roman', Times, serif;
+    font-family: 'instrument B', 'Times New Roman', Times, serif;
     font-size: 40px;
     color: white;
 }
@@ -124,12 +124,30 @@ body{
 
 /* Contact */
 .CUI{
-    width: 30rem;
+    width: 40rem;
     height: 4.063rem;
+    font-size: 20px;
 }
 
 .CUIM{
-    width: 30rem;
-    height: 15.438rem;
+    width: 40rem;
+    height: 22.3rem;
+    font-size: 20px;
+}
+
+textarea{
+    resize: none;
+}
+
+.CUSB{
+    font-family: 'instrument B', 'Times New Roman', Times, serif;
+    font-size: 30px;
+    width: 15rem;
+    height: 4rem;
+    margin-left: 12rem;
+}
+.CUBG{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 4rem 0 0 4rem;
 }
 /* Contact */
