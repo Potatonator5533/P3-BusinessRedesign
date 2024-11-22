@@ -276,3 +276,12 @@ footer {
     height: 150px;
     background-color: #8D0000;
 }
+
+footer p {
+    color: white;
+    font-size: 20px;
+    font-family: 'instrument SB';
+    -webkit-text-stroke: .2px black;
+    margin: 0;
+    padding-left: 3%;
+}
