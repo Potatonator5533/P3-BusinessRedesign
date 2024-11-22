@@ -67,8 +67,8 @@ body{
 }
 
 .CIS{
-    width: 40rem;
-    height: 22rem;
+    width: 45rem;
+    height: 25rem;
 }
 .ACIS{
     width: 45rem;
@@ -136,9 +136,18 @@ body{
     font-size: 30px;
     width: 15rem;
     height: 4rem;
+    background-color: #464646;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    paint-order: stroke fill;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 2.5rem;
+    
+    
 }
 .SNBP{
-    margin-top: 4.5rem;
+    margin-top: 5rem;
 }
 /* Store */
 
@@ -165,9 +174,17 @@ textarea{
     width: 15rem;
     height: 4rem;
     margin-left: 12rem;
+    background-color: #464646;
+    -webkit-text-stroke: 2px black;
+    paint-order: stroke fill;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    
 }
 .CUBG{
     background-color: rgba(0, 0, 0, 0.2);
     padding: 4rem 0 0 4rem;
+    height: 47rem;
 }
 /* Contact */
