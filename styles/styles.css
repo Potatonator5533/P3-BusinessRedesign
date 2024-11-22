@@ -285,3 +285,11 @@ footer p {
     margin: 0;
     padding-left: 3%;
 }
+
+
+
+@media (max-width: 991px) {
+    footer {
+        height: 316px;
+    }
+}

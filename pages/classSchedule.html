@@ -15,7 +15,7 @@
         <div class="row">
             <p class="header"><u>Class Schedule</u></p>
         </div>
-        <div class="row">
+        <div class="row d-none d-lg-block">
             <div class="scheduleGrid text-center">
                 <div class="scheduleBgDarker1"></div>
                 <div class="scheduleBgDarker2"></div>
@@ -166,12 +166,11 @@
             </div>
         </div>
     </div>
-    <div class="row">
-        <p class="header"><u>Download Class Schedule</u></p>
-    </div>
-    <div class="container-fluid downloadBg">
-        <div class="container">
 
+    <p class="header d-none d-md-block"><u>Download Class Schedule</u></p>
+
+    <div class="container-fluid downloadBg d-none d-md-block">
+        <div class="container">
             <div class="row downloadGap">
                 <div class="col ms-3">
                     <button>Lil’ Dragons Class</button>
@@ -214,21 +213,22 @@
     </div>
 
     <footer>
-        <div class="container">
-            <div class="row pt-4">
-                <div class="col-4 d-flex align-items-center">
-                    <img src="../assets/Location.png" alt=""    >
+        <div class="container-fluid">
+            <div class="row pt-4 px-5 row-gap-3">
+                <div class="col-lg-4 col-md-12 d-flex align-items-center justify-content-lg-center">
+                    <img src="../assets/Location.png" alt="">
                     <p>145 Woodrow Ave. Modesto, CA 95350</p>
                 </div>
-                <div class="col d-flex align-items-center justify-content-center">
+                <div class="col-lg col-md-12 d-flex align-items-center justify-content-lg-center">
                     <img src="../assets/Phone.png" alt="">
                     <p>1-209-549-2482</p>
                 </div>
-                <div class="col d-flex align-items-center">
+                <div class="col-lg col-md-12 d-flex align-items-center justify-content-lg-center">
                     <img src="../assets/Email.png" alt="">
                     <p>merafuenteskk@yahoo.com</p>
                 </div>
-                <div class="col-2">
+                <div class="col d-block d-lg-none"></div>
+                <div class="col-lg-2 col-5">
                     <div class="row mb-3">
                         <img src="../assets/footer-logo 1.png" alt="">
                     </div>
@@ -241,6 +241,7 @@
                         </div>
                     </div>
                 </div>
+                <div class="col d-block d-lg-none"></div>
             </div>
         </div>
     </footer>
