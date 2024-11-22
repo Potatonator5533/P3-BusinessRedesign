@@ -114,11 +114,31 @@ body{
     height: 31rem;
     background-color: rgba(0, 0, 0, 0.2);
     padding: 3rem;
+    margin-left: 9.5rem;
 }
 
 .SIS{
     width: 25rem;
     height: 25rem;
+}
+.STT{
+    font-family: 'instrument SB', 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 35px;
+}
+.STS{
+    font-family: 'instrument SB', 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 20px;
+}
+.SSB{
+    font-family: 'instrument B', 'Times New Roman', Times, serif;
+    font-size: 30px;
+    width: 15rem;
+    height: 4rem;
+}
+.SNBP{
+    margin-top: 4.5rem;
 }
 /* Store */
 
