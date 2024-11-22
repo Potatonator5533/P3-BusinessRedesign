@@ -67,7 +67,7 @@ body{
 
 .CIS{
     width: 40rem;
-    height: 20rem;
+    height: 22rem;
 }
 .ACIS{
     width: 45rem;
@@ -84,3 +84,25 @@ body{
     font-size: 35px;
 }
 /* About */
+
+/* Black Belts */
+.BBSS{
+    width: 30rem;
+    height: 35rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    
+}
+
+.BBIS{
+    width: 100%;
+    height: 85%;
+    
+}
+
+.BBTS{
+    font-family: instrument B, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: white;
+}
+/* Black Belts */
