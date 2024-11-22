@@ -191,3 +191,57 @@ textarea{
     height: 48.4rem;
 }
 /* Contact */
+
+
+
+
+@media screen and (max-width: 425px) {
+    /* Mobile Home */
+   .CTS{
+    margin-top: 1rem;
+    width: 25rem;
+   }
+   .HCBG{
+    height: 11rem;
+
+   }
+   .CIS{
+    width: 25rem;
+    height: 15rem;
+   }
+   #mobileRes{
+    max-width: 425px;
+   }
+   /* Mobile Home */
+
+   /* Mobile About */
+   .ACIS{
+    width: 25rem;
+    height: 15rem;
+   }
+   .ABTT{
+    margin-top: 1rem;
+    width: 25rem;
+   }
+   /* Mobile About */
+
+
+   /* Mobile Contact */
+   #MobileShow{
+    display: none;
+   }
+   .CUI{
+    width: 20rem;
+   }
+   .CUIM{
+    width: 20rem;
+   }
+   .CUSB{
+    margin-left: 2.5rem;
+   }
+   .CUBG{
+    width: 25rem;
+    padding: 1.5rem;
+   }
+   /* Mobile Contact */
+}
