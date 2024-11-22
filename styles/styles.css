@@ -1,14 +1,29 @@
+@font-face {
+    font-family: 'Stencil';
+    src: url(../assets/fonts/StardosStencil-Bold.ttf);
+}
+@font-face {
+    font-family: 'instrument B';
+    src: url(../assets/fonts/InstrumentSans_Condensed-Bold.ttf);
+}
+@font-face {
+    font-family: 'instrument SB';
+    src: url(../assets/fonts/InstrumentSans-SemiBold.ttf);
+}
+
 body {
     background-color: #1C1C1C;
 }
 
-.container-fluid {
+.container {
     padding: 0 50px;
 }
 
 /* Class Schedule */
 
-h1 {
+.header {
+    font-size: 35px;
+    font-family: 'instrument SB';
     color: white;
     text-align: center;
     margin: 0;
@@ -16,10 +31,10 @@ h1 {
     padding-bottom: 2rem;
 }
 
-p {
+.scheduleGrid p {
+    font-family: 'instrument SB';
     color: black;
     margin: 22px 0;
-    font-weight: 600;
 }
 
 .endText {
@@ -28,7 +43,7 @@ p {
     font-weight: bold;
 }
 
-button {
+.downloadGap button {
     color: white;
     background-color: #464646;
     -webkit-text-stroke: 2px black;
@@ -42,7 +57,7 @@ button {
     font-weight: bold;
 }
 
-.redtext {
+p.redtext {
     color: #8D0000;
 }
 
@@ -254,4 +269,10 @@ button {
 
 .downloadGap {
     column-gap: 8%;
+}
+
+/* Footer */
+footer {
+    height: 150px;
+    background-color: #8D0000;
 }
