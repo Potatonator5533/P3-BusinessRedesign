@@ -244,4 +244,17 @@ textarea{
     padding: 1.5rem;
    }
    /* Mobile Contact */
+
+   /* Mobile Practice */
+   #vidSize{
+    width: 24.688rem;
+    height: 13.188rem;
+   }
+   /* Mobile Practice */
+
+   /* Mobile Black Belts */
+.BBSS{
+    margin-top: 1rem;
+}
+   /* Mobile Black Belts */
 }
