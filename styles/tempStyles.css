@@ -253,8 +253,34 @@ textarea{
    /* Mobile Practice */
 
    /* Mobile Black Belts */
-.BBSS{
+    .BBSS{
     margin-top: 1rem;
-}
+    }
    /* Mobile Black Belts */
+
+   /* Mobile Store */
+    .SCS{
+        width: 23.688rem;
+        height: 68.625rem;
+        padding: 2rem 1rem;
+        margin-left: 1.5rem;
+    }
+    .STS{
+        width: 20rem;
+    }
+    .SIS{
+        width: 20rem;
+        height: 19.938rem;
+        
+    }
+    .SNBP{
+        margin-top: 0;
+    }
+    #shorterCard{
+        height: 58rem;
+    }
+    .SSB{
+        margin-left: 2rem;
+    }
+   /* Mobile Store */
 }
