@@ -259,6 +259,32 @@ p.redtext {
     grid-area: 9 / 7;
 }
 
+.darkerBg {
+    background-color: #7E7E7E;
+}
+.lighterBg {
+    background-color: #BDBDBD;
+}
+
+.btn, .dropdown-menu {
+    border-radius: 0;
+    width: 100%;
+    font-family: 'instrument SB';
+    font-size: 25px;
+    color: black;
+}
+
+.btn{
+    height: 75px;
+}
+
+.dropdown-menu {
+    background-color: #BDBDBD;
+}
+
+.dropdown-item {
+    color:#8D0000
+}
 
 
 .downloadBg {
