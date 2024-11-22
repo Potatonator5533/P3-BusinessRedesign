@@ -26,7 +26,9 @@ body{
 .HBG{
     width: 100%;
 }
-
+.MNB{
+    margin-left: 4rem;
+}
 .NBS{
     font-size: 25px;
     color: #FFFFFF;
@@ -39,6 +41,7 @@ body{
     paint-order: stroke fill;
     color: white;
     padding: 3rem;
+    text-decoration: none;
 }
 
 .HCBG{
