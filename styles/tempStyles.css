@@ -18,10 +18,7 @@ body{
 
 
 /* Home */
-.NBG{
-    background-color: #8D0000;
-    height: 9.375rem;
-}
+
 
 .HBG{
     width: 100%;
@@ -41,7 +38,7 @@ body{
     paint-order: stroke fill;
     color: white;
     padding: 3rem;
-    margin: 0 1.07rem;
+    margin: 0 2.5rem;
     text-decoration: none;
     font-size: 25px;
 }
