@@ -41,7 +41,9 @@ body{
     paint-order: stroke fill;
     color: white;
     padding: 3rem;
+    margin: 0 1.07rem;
     text-decoration: none;
+    font-size: 25px;
 }
 
 .HCBG{

@@ -19,6 +19,8 @@ body {
     padding: 0 50px;
 }
 
+
+
 /* Class Schedule */
 
 .header {
@@ -297,9 +299,25 @@ p.redtext {
     column-gap: 8%;
 }
 
+/* NavBar */
+nav {
+    height: 100%;
+    background-color: #8D0000;
+}
+
+.navbar-nav {
+    background-color: #8D0000;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-toggler {
+    border: 0;
+}
+
 /* Footer */
 footer {
-    height: 150px;
+    height: 9.375rem;
     background-color: #8D0000;
 }
 
