@@ -190,6 +190,99 @@ textarea{
 .CUBG{
     background-color: rgba(0, 0, 0, 0.2);
     padding: 4rem 0 0 4rem;
-    height: 47rem;
+    height: 48.4rem;
 }
 /* Contact */
+
+
+
+
+@media screen and (max-width: 425px) {
+    /* Mobile Home */
+   .CTS{
+    margin-top: 1rem;
+    width: 25rem;
+   }
+   .HCBG{
+    height: 11rem;
+
+   }
+   .CIS{
+    width: 25rem;
+    height: 15rem;
+   }
+   #mobileRes{
+    max-width: 425px;
+   }
+   /* Mobile Home */
+
+   /* Mobile About */
+   .ACIS{
+    width: 25rem;
+    height: 15rem;
+   }
+   .ABTT{
+    margin-top: 1rem;
+    width: 25rem;
+   }
+   /* Mobile About */
+
+
+   /* Mobile Contact */
+   #MobileShow{
+    display: none;
+   }
+   .CUI{
+    width: 20rem;
+   }
+   .CUIM{
+    width: 20rem;
+   }
+   .CUSB{
+    margin-left: 2.5rem;
+   }
+   .CUBG{
+    width: 25rem;
+    padding: 1.5rem;
+   }
+   /* Mobile Contact */
+
+   /* Mobile Practice */
+   #vidSize{
+    width: 24.688rem;
+    height: 13.188rem;
+   }
+   /* Mobile Practice */
+
+   /* Mobile Black Belts */
+    .BBSS{
+    margin-top: 1rem;
+    }
+   /* Mobile Black Belts */
+
+   /* Mobile Store */
+    .SCS{
+        width: 23.688rem;
+        height: 68.625rem;
+        padding: 2rem 1rem;
+        margin-left: 1.5rem;
+    }
+    .STS{
+        width: 20rem;
+    }
+    .SIS{
+        width: 20rem;
+        height: 19.938rem;
+        
+    }
+    .SNBP{
+        margin-top: 0;
+    }
+    #shorterCard{
+        height: 58rem;
+    }
+    .SSB{
+        margin-left: 2rem;
+    }
+   /* Mobile Store */
+}
