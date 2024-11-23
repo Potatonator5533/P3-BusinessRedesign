@@ -337,3 +337,271 @@ footer p {
         height: 316px;
     }
 }
+
+
+/* Home */
+
+
+.HBG{
+    width: 100%;
+}
+.MNB{
+    margin-left: 4rem;
+}
+.NBS{
+    font-size: 25px;
+    color: #FFFFFF;
+    font-family: 'instrument B', 'Times New Roman', Times, serif;
+    stroke: black 1px;
+}
+
+.NBC{
+    -webkit-text-stroke: 2px black;
+    paint-order: stroke fill;
+    color: white;
+    padding: 3rem;
+    margin: 0 2.5rem;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.HCBG{
+    background-color: #8D0000;
+    height: 6.25rem;
+}
+
+.HFS{
+    font-family: 'Stencil', 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: white;
+}
+
+.HTS{
+    font-size: 40px;
+    font-family: 'instrument B';
+    color: white;
+    text-decoration: underline;
+}
+
+.CTS{
+    font-family: 'instrument SB', 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 20px;
+    width: 44.688rem;
+}
+
+.CIS{
+    width: 45rem;
+    height: 25rem;
+}
+.ACIS{
+    width: 45rem;
+    height: 25rem;
+}
+/* Home */
+
+
+/* About */
+.ABTT{
+    font-family: 'instrument SB', 'Times New Roman', Times, serif;
+    width: 47.375rem;
+    color: white;
+    font-size: 35px;
+}
+/* About */
+
+/* Black Belts */
+.BBSS{
+    width: 30rem;
+    height: 35rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    
+}
+
+.BBIS{
+    width: 100%;
+    height: 85%;
+    
+}
+
+.BBTS{
+    font-family: 'instrument B', 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: white;
+}
+/* Black Belts */
+
+/* Store */
+.SCS{
+    width: 100rem;
+    height: 31rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 3rem;
+    margin-left: 9.5rem;
+}
+
+.SIS{
+    width: 25rem;
+    height: 25rem;
+}
+.STT{
+    font-family: 'instrument SB', 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 35px;
+}
+.STS{
+    font-family: 'instrument SB', 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 20px;
+}
+.SSB{
+    font-family: 'instrument B', 'Times New Roman', Times, serif;
+    font-size: 30px;
+    width: 15rem;
+    height: 4rem;
+    background-color: #464646;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    paint-order: stroke fill;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 2.5rem;
+    
+    
+}
+.SNBP{
+    margin-top: 5rem;
+}
+/* Store */
+
+/* Contact */
+.CUI{
+    width: 40rem;
+    height: 4.063rem;
+    font-size: 20px;
+}
+
+.CUIM{
+    width: 40rem;
+    height: 22.3rem;
+    font-size: 20px;
+}
+
+textarea{
+    resize: none;
+}
+
+.CUSB{
+    font-family: 'instrument B', 'Times New Roman', Times, serif;
+    font-size: 30px;
+    width: 15rem;
+    height: 4rem;
+    margin-left: 12rem;
+    background-color: #464646;
+    -webkit-text-stroke: 2px black;
+    paint-order: stroke fill;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    
+}
+.CUBG{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 4rem 0 0 4rem;
+    height: 48.4rem;
+}
+/* Contact */
+
+
+
+
+@media screen and (max-width: 425px) {
+    /* Mobile Home */
+   .CTS{
+    margin-top: 1rem;
+    width: 25rem;
+   }
+   .HCBG{
+    height: 11rem;
+
+   }
+   .CIS{
+    width: 25rem;
+    height: 15rem;
+   }
+   #mobileRes{
+    max-width: 425px;
+   }
+   /* Mobile Home */
+
+   /* Mobile About */
+   .ACIS{
+    width: 25rem;
+    height: 15rem;
+   }
+   .ABTT{
+    margin-top: 1rem;
+    width: 25rem;
+   }
+   /* Mobile About */
+
+
+   /* Mobile Contact */
+   #MobileShow{
+    display: none;
+   }
+   .CUI{
+    width: 20rem;
+   }
+   .CUIM{
+    width: 20rem;
+   }
+   .CUSB{
+    margin-left: 2.5rem;
+   }
+   .CUBG{
+    width: 25rem;
+    padding: 1.5rem;
+   }
+   /* Mobile Contact */
+
+   /* Mobile Practice */
+   #vidSize{
+    width: 24.688rem;
+    height: 13.188rem;
+   }
+   /* Mobile Practice */
+
+   /* Mobile Black Belts */
+    .BBSS{
+    margin-top: 1rem;
+    }
+   /* Mobile Black Belts */
+
+   /* Mobile Store */
+    .SCS{
+        width: 23.688rem;
+        height: 68.625rem;
+        padding: 2rem 1rem;
+        margin-left: 1.5rem;
+    }
+    .STS{
+        width: 20rem;
+    }
+    .SIS{
+        width: 20rem;
+        height: 19.938rem;
+        
+    }
+    .SNBP{
+        margin-top: 0;
+    }
+    #shorterCard{
+        height: 58rem;
+    }
+    .SSB{
+        margin-left: 2rem;
+    }
+   /* Mobile Store */
+}
